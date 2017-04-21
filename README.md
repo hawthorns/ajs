@@ -1,0 +1,2 @@
+# ajs
+a new language
