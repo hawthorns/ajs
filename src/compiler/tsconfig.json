@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "outFile": "../../out/asc.js",
+        "declaration": true
+    },
+    "files": [
+        "asc.ts",
+        "charactor.ts",
+        "parser.ts",
+        "scanner.ts",
+        "sys.ts",
+        "token.ts"
+    ]
+}
