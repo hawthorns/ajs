@@ -6,7 +6,7 @@
 namespace ajs {
   let fileName = sys.args[1];
   let source : string = sys.readFile(fileName);
-  let scanner : Scanner = CreateScanner(source);
+  let scanner : Scanner = createScanner(source);
   let token;
   do {
     token = scanner.scan();

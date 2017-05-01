@@ -134,4 +134,8 @@ namespace ajs {
     tab = 0x09,                   // \t
     verticalTab = 0x0B,           // \v
   }
+
+  export function isDigit(ch: number): boolean {
+    return ch >= CharacterCodes._0 && ch <= CharacterCodes._9;
+  }
 }
